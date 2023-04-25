@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediaquery_ex_1</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        @media (max-width: 1024px) {
+
+            /* 1024px 이하 인 경우 max는 이하 max는 최댓값이므로*/
+            body {
+                background-color: beige;
+            }
+        }
+
+        @media (max-width: 512px) {
+
+            /* 512px 이상 인 경우 min는 이상 min는 최솟값이므로*/
+            body {
+                background-color: lightcoral;
+            }
+        }
+        @media (max-width: 512px) {
+
+            /* 512px 이상 인 경우 min는 이상 min는 최솟값이므로*/
+            body {
+                background-color: lightcoral;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Media Query Ex</h1>
+    <p>CSS에서 미디어 쿼리를 사용한 예입니다.</p>
+</body>
+
+</html>
